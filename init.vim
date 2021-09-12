@@ -1,4 +1,4 @@
-"  _____                 _     _             _   _                   _        
+"   _____                 _     _             _   _                   _        
 "  /  ___|               | |   (_)           | \ | |                 | |       
 "  \ `--.  __ _ _ __  ___| |__  _ _ __ ___   |  \| | __ _  __ _  __ _| |_ ___  
 "   `--. \/ _` | '_ \/ __| '_ \| | '__/ _ \  | . ` |/ _` |/ _` |/ _` | __/ _ \ 
@@ -13,7 +13,6 @@ Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'} sorry because idk how to make it work :< 
 Plug 'preservim/nerdcommenter'
 Plug 'mhinz/vim-startify'
 call plug#end()
@@ -57,10 +56,6 @@ set directory=/tmp
 
 set cmdheight=2       " More space for displaying messages
 set nowrap            " Display long lines as just one line
-
-
-"tagbar configuration
-nmap <F8> :TagbarToggle<CR>
 
 
 source $HOME\AppData\Local\nvim\nerdtree.vim
