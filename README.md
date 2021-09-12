@@ -1,4 +1,5 @@
 # neovim-config
+---
 Just my basic neovim configuration for Window :>.
 ---
 ## Installation
