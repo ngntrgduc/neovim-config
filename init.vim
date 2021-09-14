@@ -1,51 +1,42 @@
-"   _____                 _     _             _   _                   _        
-"  /  ___|               | |   (_)           | \ | |                 | |       
-"  \ `--.  __ _ _ __  ___| |__  _ _ __ ___   |  \| | __ _  __ _  __ _| |_ ___  
-"   `--. \/ _` | '_ \/ __| '_ \| | '__/ _ \  | . ` |/ _` |/ _` |/ _` | __/ _ \ 
-"  /\__/ / (_| | | | \__ \ | | | | | | (_) | | |\  | (_| | (_| | (_| | || (_) |
-"  \____/ \__,_|_| |_|___/_| |_|_|_|  \___/  \_| \_/\__,_|\__, |\__,_|\__\___/ 
-"                                                          __/ |               
-"                                                         |___/                
-
+" Initialize plugin system
 call plug#begin('~/nvim')
-Plug 'dracula/vim'
-Plug 'preservim/nerdtree'
-Plug 'itchyny/lightline.vim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-surround'
-Plug 'preservim/nerdcommenter'
-Plug 'mhinz/vim-startify'
+Plug 'dracula/vim'            "Theme
+Plug 'preservim/nerdtree'     "File explorer
+Plug 'itchyny/lightline.vim'  "Statusline
+Plug 'jiangmiao/auto-pairs'   "Auto pair  
+Plug 'mhinz/vim-startify'     "Start-screen
 call plug#end()
 
 filetype plugin indent on
 
-set encoding=UTF-8
-syntax on               "Enable syntax hightlighting
+syntax on                 "Enable syntax hightlighting
 
-colorscheme dracula     "Set color scheme
+colorscheme dracula       "Set color scheme
 
-"Lightline configuration
-set noshowmode        " We don't need to see things like -- INSERT -- anymore :>
-let g:lightline = {
-	\'colorscheme': 'dracula',
-  \}
+"Essential settings
+set encoding=UTF-8        "The encoding displayed
+set number                "Enable line numbers
+set relativenumber        "Help you navigate faster 
+set mouse=a				        "Enable mouse for all mode
+set cursorline		    	  "Enable hightlighting of the current line
+set clipboard=unnamedplus " Copy paste between vim and everything else
+set tabstop=2             " Insert 2 spaces for a tab
+set smarttab              "Makes tabbing smarter will realize you have 2 vs 4
+set shiftwidth=2          " Change the number of space characters inserted for indentation
+set expandtab             "Converts tabs to spaces
+set autoindent            " Makes indenting smart
+set smartindent           " Good auto indent
+set cmdheight=2           " More space for displaying messages
+set nowrap                " Display long lines as just one line
+set splitbelow            " Horizontal splits will automatically be below
+set splitright            " Vertical splits will automatically be to the right
+set updatetime=300        " Faster completion
+"set showtabline=2
 
-set number              "Enable line numbers
-set relativenumber 
-
-set autoread
+set autoread              "Auto update file when it's changed by other program
 set autowrite 
-set mouse=a				      "Enable mouse for all mode
-set cursorline		    	"Enable hightlighting of the current line
-set clipboard=unnamedplus
 
-set tabstop=2
-set smarttab            "Makes tabbing smarter will realize you have 2 vs 4
-set shiftwidth=4
-set expandtab           "Converts tabs to spaces
-set autoindent
-set smartindent
-
+"Disable files backup, swap because I use Git instead
 set nobackup
 set nowritebackup
 set noswapfile
@@ -54,12 +45,17 @@ set backupcopy=yes
 set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 set directory=/tmp
 
-set cmdheight=2       " More space for displaying messages
-set nowrap            " Display long lines as just one line
-
 
 source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
+source $HOME\AppData\Local\nvim\startify.vim
+source $HOME\AppData\Local\nvim\lightline.vim
+
+
+
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+"Key mapping
 " Alternate way to save
 nnoremap <C-s> :w<CR> 
 " Alternate way to quit
@@ -31,5 +32,26 @@ nnoremap <silent> <TAB> :bnext<CR>
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
 "Escape button is too far for my left hand :< 
-inoremap q <Esc>
+inoremap <silent> kj <Esc>
+inoremap <silent> jk <Esc>
+
+" Select all
+"nmap <C-a> gg<S-v>G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
