@@ -3,7 +3,7 @@ call plug#begin('~/nvim')
 Plug 'dracula/vim'            "Theme
 Plug 'preservim/nerdtree'     "File explorer
 Plug 'itchyny/lightline.vim'  "Statusline
-Plug 'jiangmiao/auto-pairs'   "Auto pair  
+Plug 'jiangmiao/auto-pairs'   "Auto pairs 
 Plug 'mhinz/vim-startify'     "Start-screen
 call plug#end()
 
@@ -32,7 +32,7 @@ set updatetime=300        " Faster completion
 "set showtabline=2
 set autoread              "Auto update file when it's changed by other program
 set autowrite 
-set scrolloff=16          "Make cursorline always in middle
+set scrolloff=18          "Make cursorline always in middle when scrolling
 
 "Disable files backup, swap because I use Git instead
 "set nobackup
@@ -47,5 +47,6 @@ source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
 source $HOME\AppData\Local\nvim\startify.vim
 source $HOME\AppData\Local\nvim\lightline.vim
+
 
 
