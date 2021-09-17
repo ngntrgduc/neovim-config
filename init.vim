@@ -8,9 +8,7 @@ Plug 'mhinz/vim-startify'     "Start-screen
 call plug#end()
 
 filetype plugin indent on
-
 syntax on                 "Enable syntax hightlighting
-
 colorscheme dracula       "Set color scheme
 
 "Essential settings
@@ -32,58 +30,26 @@ set splitbelow            " Horizontal splits will automatically be below
 set splitright            " Vertical splits will automatically be to the right
 set updatetime=300        " Faster completion
 "set showtabline=2
-
 set autoread              "Auto update file when it's changed by other program
 set autowrite 
 
+
+	set scrolloff=5
+
 "Disable files backup, swap because I use Git instead
-set nobackup
-set nowritebackup
-set noswapfile
-set backupdir=~/tmp,/tmp
-set backupcopy=yes
-set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
-set directory=/tmp
+"set nobackup
+"set nowritebackup
+"set noswapfile
+"set backupdir=~/tmp,/tmp
+"set backupcopy=yes
+"set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
+"set directory=/tmp
 
 
 source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
 source $HOME\AppData\Local\nvim\startify.vim
 source $HOME\AppData\Local\nvim\lightline.vim
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

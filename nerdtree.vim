@@ -1,6 +1,7 @@
 "NERDTree config
+      
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+"autocmd VimEnter * NERDTree | wincmd p
 
 nnoremap <C-o> :NERDTreeToggle<CR>
 
@@ -13,7 +14,8 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 
 "let NERDTreeMinimalUI=1 "Disable the 'Bookmarks' label and 'Press ? for help text'
 
-let g:NERDTreeStatusline = '%#NonText#'
+"Dissable nerdtree statusline
+"let g:NERDTreeStatusline = '%#NonText#'
 
 
 
