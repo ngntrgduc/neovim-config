@@ -15,8 +15,3 @@ let g:lightline = {
       \ }
 
 
-
-
-
-
-

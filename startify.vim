@@ -10,7 +10,6 @@ let g:startify_custom_header = [
   \ '      \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/  ',
   \ ]
 
-
 let g:startify_files_number = 10
 
 let g:startify_lists = [
