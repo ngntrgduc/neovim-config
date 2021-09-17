@@ -32,7 +32,7 @@ set updatetime=300        " Faster completion
 "set showtabline=2
 set autoread              "Auto update file when it's changed by other program
 set autowrite 
-set scrolloff=16
+set scrolloff=16          "Make cursorline always in middle
 
 "Disable files backup, swap because I use Git instead
 "set nobackup
