@@ -19,17 +19,3 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

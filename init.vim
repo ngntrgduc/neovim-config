@@ -49,35 +49,3 @@ source $HOME\AppData\Local\nvim\startify.vim
 source $HOME\AppData\Local\nvim\lightline.vim
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
