@@ -5,6 +5,7 @@ Plug 'preservim/nerdtree'     "File explorer
 Plug 'itchyny/lightline.vim'  "Statusline
 Plug 'jiangmiao/auto-pairs'   "Auto pairs 
 Plug 'mhinz/vim-startify'     "Start-screen
+Plug 'voldikss/vim-floaterm'  "Floating terminal
 call plug#end()
 
 filetype plugin indent on
@@ -35,9 +36,9 @@ set autowrite
 set scrolloff=18          "Make cursorline always in middle when scrolling
 
 "Disable files backup, swap because I use Git instead
-"set nobackup
-"set nowritebackup
-"set noswapfile
+set nobackup
+set nowritebackup
+set noswapfile
 "set backupdir=~/tmp,/tmp
 "set backupcopy=yes
 "set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
@@ -47,6 +48,7 @@ source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
 source $HOME\AppData\Local\nvim\startify.vim
 source $HOME\AppData\Local\nvim\lightline.vim
+source $HOME\AppData\Local\nvim\floaterm.vim
 
 
 
