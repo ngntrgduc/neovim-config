@@ -14,6 +14,7 @@ colorscheme dracula       "Set color scheme
 
 "Essential settings
 set encoding=UTF-8        "The encoding displayed
+set termguicolors
 set number                "Enable line numbers
 set relativenumber        "Help you navigate faster 
 set mouse=a				        "Enable mouse for all mode
