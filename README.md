@@ -22,6 +22,3 @@ When it done, open `init.vim` by `nvim-qt.exe` and then type `:PlugInstall` in `
 
 -Nerdtree + Floating terminal
 ![image](https://user-images.githubusercontent.com/47920109/135984322-2448003c-43bc-4174-8371-94c6c2708be6.png)
-
-
-If you find this useful, please give it a star :>.
