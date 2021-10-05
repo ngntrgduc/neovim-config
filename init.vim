@@ -1,13 +1,12 @@
 " Initialize plugin system
 call plug#begin('~/nvim')
-Plug 'dracula/vim'            "Theme
-Plug 'preservim/nerdtree'     "File explorer
-Plug 'itchyny/lightline.vim'  "Statusline
-Plug 'jiangmiao/auto-pairs'   "Auto pairs 
-Plug 'mhinz/vim-startify'     "Start-screen
-"Plug 'voldikss/vim-floaterm'  "Floating terminal
+Plug 'dracula/vim'                "Theme
+Plug 'preservim/nerdtree'         "File explorer
+Plug 'itchyny/lightline.vim'      "Statusline
+Plug 'jiangmiao/auto-pairs'       "Auto pairs 
+Plug 'mhinz/vim-startify'         "Start-screen
+"Plug 'voldikss/vim-floaterm'     "Floating terminal
 call plug#end()
-
 
 filetype plugin indent on
 syntax on                 "Enable syntax hightlighting
@@ -38,13 +37,20 @@ set autowrite
 set scrolloff=18          "Make cursorline always in middle when scrolling
 
 "Disable files backup, swap because I use Git instead
-set nobackup
+set nobackup              "Dont save backup
 set nowritebackup
-set noswapfile
+set noswapfile            "Dont create wrap file
 "set backupdir=~/tmp,/tmp
 "set backupcopy=yes
 "set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 "set directory=/tmp
+
+"Netrw config
+let g:netrw_winsize = 20
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+
+
 
 source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
