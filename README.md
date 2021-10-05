@@ -15,7 +15,7 @@ git clone https://github.com/ducnguyen1511/neovim-config
 
 When it done, open `init.vim` by `nvim-qt.exe` and then type `:PlugInstall` in `Command` mode, don't forget to `:PlugUpdate` for your plugins. And final, exit your `init.vim` ( don't forget to save it ) and enjoy your new neovim :>. 
 
-#Some screenshots 
+## Some screenshots 
 
 -Start screen
 ![image](https://user-images.githubusercontent.com/47920109/135983840-ff618a64-fc43-475d-878e-511bee49b36e.png)
