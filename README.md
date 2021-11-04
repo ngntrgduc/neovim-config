@@ -9,7 +9,7 @@ There are 2 way to use this config:
 1. Just copy what you need :>.
 2. Clone the whole repo to your computer and copy all of it to `~Users\yourcomputer_name\AppData\Local\nvim\`. If you don't have `nvim` file, just create it :>.
 
-```
+```git
 git clone https://github.com/ducnguyen1511/neovim-config
 ```
 
