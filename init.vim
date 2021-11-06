@@ -34,22 +34,23 @@ set updatetime=300        " Faster completion
 "set showtabline=2
 set autoread              "Auto update file when it's changed by other program
 set autowrite 
-set scrolloff=18          "Make cursorline always in middle when scrolling
+set scrolloff=12          "Make cursorline always in 1/3 of screen when scrolling
 
 "Disable files backup, swap because I use Git instead
 set nobackup              "Dont save backup
 set nowritebackup
 set noswapfile            "Dont create wrap file
+"set foldenable
+"set foldmethod=indent
 "set backupdir=~/tmp,/tmp
 "set backupcopy=yes
 "set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 "set directory=/tmp
 
 "Netrw config
-let g:netrw_winsize = 20
+let g:netrw_winsize = 40
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-
 
 
 source $HOME\AppData\Local\nvim\nerdtree.vim
@@ -57,6 +58,4 @@ source $HOME\AppData\Local\nvim\keymap.vim
 source $HOME\AppData\Local\nvim\startify.vim
 source $HOME\AppData\Local\nvim\lightline.vim
 source $HOME\AppData\Local\nvim\floaterm.vim
-
-
 

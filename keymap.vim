@@ -46,5 +46,3 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 " Select all
 "nmap <C-a> gg<S-v>G
 
-
-
