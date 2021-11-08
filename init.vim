@@ -48,7 +48,7 @@ set noswapfile            "Dont create wrap file
 "set directory=/tmp
 
 "Netrw config
-let g:netrw_winsize = 40
+let g:netrw_winsize = 15
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 
