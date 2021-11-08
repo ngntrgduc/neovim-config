@@ -30,4 +30,3 @@ let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 "Get rid of empy buffer and quit
 let g:startify_enable_special = 0
 
-
