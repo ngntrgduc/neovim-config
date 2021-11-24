@@ -1,7 +1,7 @@
-"Lightline configuration
+" Lightline configuration
 set noshowmode            " We don't need to see things like -- INSERT -- anymore :>
 
-"Cleaner statusline
+" Cleaner statusline
 let g:lightline = {
       \ 'colorscheme': 'dracula',
       \ 'active': {

@@ -1,4 +1,4 @@
-"Startify config
+" Startify config
 
 let g:startify_custom_header = [
   \ '   __  __                                                ',
@@ -24,9 +24,9 @@ let g:startify_bookmarks = [
             \   '~/AppData/Local/nvim' ,
             \ ]
 
-"If you want numbers to start at 1 instead of 0
+" If you want numbers to start at 1 instead of 0
 let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 
-"Get rid of empy buffer and quit
+" Get rid of empy buffer and quit
 let g:startify_enable_special = 0
 

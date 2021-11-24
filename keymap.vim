@@ -3,20 +3,20 @@ nnoremap <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 
-"Moving your Vim cursor around using the arrow keys is a bad habit, 
-"and like many bad habits, it’s difficult to break :<
+" Moving your Vim cursor around using the arrow keys is a bad habit, 
+" and like many bad habits, it’s difficult to break :<
 nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
 nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
 
-"Also in Insert mode :<
-inoremap <Left> <NOP>
-inoremap <Right> <NOP>
-inoremap <Up> <NOP>
-inoremap <Down> <NOP>
+"A lso in Insert mode :<
+"inoremap <Left> <NOP>
+"inoremap <Right> <NOP>
+"inoremap <Up> <NOP>
+"inoremap <Down> <NOP>
 
-"Use Ctrl C and Ctrl V :>
+" Use Ctrl C and Ctrl V :>
 vnoremap <C-c> "+y
 map <C-v> "+p
 
@@ -37,10 +37,10 @@ nnoremap <silent> <TAB> :bnext<CR>
 " Shift-Tab will go back
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
-"Escape button is too far for my left hand :< 
+" Escape button is too far for my left hand :< 
 "inoremap <silent> kj <Esc>
 "inoremap <silent> jk <Esc>
 
 " Select all
-"nmap <C-a> gg<S-v>G
+nmap <C-a> gg<S-v>G
 
