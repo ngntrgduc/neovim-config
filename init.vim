@@ -52,6 +52,9 @@ let g:netrw_winsize = 15
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 
+autocmd filetype cpp nnoremap <F11> :w <bar> !g++ -std=c++11 -O2 -Wall % -o %:r && %:r.exe <CR>
+
+
 source $HOME\AppData\Local\nvim\nerdtree.vim
 source $HOME\AppData\Local\nvim\keymap.vim
 source $HOME\AppData\Local\nvim\startify.vim

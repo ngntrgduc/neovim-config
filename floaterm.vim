@@ -69,5 +69,5 @@ function! FloatTerm(...)
 endfunction
 
 " Open terminal
-nnoremap <F1> :call FloatTerm()<CR>
+nnoremap <C-`> :call FloatTerm()<CR>
 
