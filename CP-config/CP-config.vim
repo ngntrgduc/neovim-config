@@ -1,4 +1,4 @@
-source $VIMRUNTIME/vimrc_example.vim
+"source $VIMRUNTIME/vimrc_example.vim
 
 au GUIEnter * simalt ~x
 set hls
@@ -8,14 +8,14 @@ set gfn=Fixedsys:h10
 set ts=4
 set sw=4
 set si
-cd C:\Users\tmwil\Documents\vimws
+"cd C:\Users\tmwil\Documents\vimws
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap {{ {
 inoremap {} {}
 
-autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++14 % -o %:r -Wl,--stack,268435456<CR>
+autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++11 % -o %:r -Wl,--stack,268435456<CR>
 autocmd filetype cpp nnoremap <F10> :!%:r<CR>
 autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
 
