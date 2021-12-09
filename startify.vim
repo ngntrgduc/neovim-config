@@ -1,4 +1,3 @@
-" Startify config
 
 let g:startify_custom_header = [
   \ '   __  __                                                ',

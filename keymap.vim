@@ -10,7 +10,7 @@ nnoremap <Right> <NOP>
 nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
 
-"A lso in Insert mode :<
+" Also in Insert mode :<
 "inoremap <Left> <NOP>
 "inoremap <Right> <NOP>
 "inoremap <Up> <NOP>
@@ -37,9 +37,9 @@ nnoremap <silent> <TAB> :bnext<CR>
 " Shift-Tab will go back
 nnoremap <silent> <S-TAB> :bprevious<CR>
 
-" Escape button is too far for my left hand :< 
-"inoremap <silent> kj <Esc>
-"inoremap <silent> jk <Esc>
+" Escape button is too far ? 
+inoremap <silent> kj <Esc>
+inoremap <silent> jk <Esc>
 
 " Select all
 nmap <C-a> gg<S-v>G
