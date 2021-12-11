@@ -9,6 +9,7 @@ Plug 'mhinz/vim-startify'         "Start-screen
 Plug 'tpope/vim-commentary'       "Better comment code
 call plug#end()
 
+
 filetype plugin indent on
 syntax on                 "Enable syntax hightlighting
 colorscheme dracula       "Set color scheme
