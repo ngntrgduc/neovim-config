@@ -1,4 +1,3 @@
-
 set noshowmode            " We don't need to see things like -- INSERT -- anymore :>
 
 " Cleaner statusline

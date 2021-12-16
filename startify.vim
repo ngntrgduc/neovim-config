@@ -1,4 +1,3 @@
-
 let g:startify_custom_header = [
   \ '    __  __                                                ',
   \ '   /\ \/\ \                          __                  ', 
