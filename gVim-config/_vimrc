@@ -35,23 +35,18 @@ nnoremap <C-a> gg<S-v>G
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
-inoremap {{ {
-inoremap {} {}
-
 inoremap ( ()<Left>
-inoremap () () 
-
 inoremap " ""<Left>
-inoremap "" ""
-
 inoremap ' ''<Left>
+inoremap [ []<Left>
 
-
-"No bell
+"No bell anymore
 autocmd GUIEnter * set vb t_vb=
 
 "F9 to compile and F10 to run cpp file
 autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++11 % -o %:r -Wl,--stack,268435456<CR>
 autocmd filetype cpp nnoremap <F10> :!%:r<CR>
+
+"Ctrl+c in normal mode in cpp filetype, that line will be commented
 autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
 
