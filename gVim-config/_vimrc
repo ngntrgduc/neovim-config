@@ -1,0 +1,51 @@
+"This config is used for Competive Programming :v
+
+syntax on
+
+set number
+set relativenumber
+set ts=4
+set sw=4
+set clipboard=unnamedplus
+set cursorline
+set hls
+set scrolloff=8
+set nowrap
+set showmode
+set cmdheight=2
+set smarttab
+set expandtab
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+
+
+"Key mapping --------------------------------------------------------------------------------------------------------------------------------------------------------
+inoremap <silent> kj <Esc>
+inoremap <silent> jk <Esc>
+
+nnoremap <C-a> gg<S-v>G
+
+inoremap { {}<Left>
+inoremap {<CR> {<CR>}<Esc>O
+inoremap {{ {
+inoremap {} {}
+
+inoremap ( ()<Left>
+inoremap () () 
+
+inoremap " ""<Left>
+inoremap "" ""
+
+inoremap ' ''<Left>
+
+nnoremap <Tab> i<Tab><Esc>
+
+"No bell
+autocmd GUIEnter * set vb t_vb=
+
+"F9 to compile and F10 to run cpp file
+autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++11 % -o %:r -Wl,--stack,268435456<CR>
+autocmd filetype cpp nnoremap <F10> :!%:r<CR>
+autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
+
