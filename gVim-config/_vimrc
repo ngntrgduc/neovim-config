@@ -2,6 +2,12 @@
 
 syntax on
 
+"Dracula theme, of course :>
+"I follow the instruction on dracula theme official page
+packadd! dracula
+syntax enable
+colorscheme dracula
+
 set number
 set relativenumber
 set ts=4
@@ -18,7 +24,8 @@ set expandtab
 set autoindent
 set smartindent
 set backspace=indent,eol,start
-
+set gfn=Consolas:h11
+set numberwidth=1
 
 "Key mapping --------------------------------------------------------------------------------------------------------------------------------------------------------
 inoremap <silent> kj <Esc>
@@ -39,7 +46,6 @@ inoremap "" ""
 
 inoremap ' ''<Left>
 
-nnoremap <Tab> i<Tab><Esc>
 
 "No bell
 autocmd GUIEnter * set vb t_vb=
