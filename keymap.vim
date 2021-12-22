@@ -44,3 +44,5 @@ inoremap <silent> jk <Esc>
 " Select all
 nmap <C-a> gg<S-v>G
 
+" Clear search highlighting
+nnoremap <C-z> :nohlsearch<CR>
