@@ -50,3 +50,5 @@ autocmd filetype cpp nnoremap <F10> :!%:r<CR>
 "Ctrl+c in normal mode in cpp filetype, that line will be commented
 autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
 
+"Add template when enter gVim and type : cpp 
+nnoremap cpp :-1read D:\C_plus_plus\Cpp_project\Template\template.cpp<CR>
