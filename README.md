@@ -17,8 +17,8 @@ When it done, open `init.vim` by `nvim-qt.exe` and then type `:PlugInstall` in `
 
 ## Screenshots 
 
--Start screen
+ - Start screen
 ![image](https://user-images.githubusercontent.com/47920109/135983840-ff618a64-fc43-475d-878e-511bee49b36e.png)
 
--Nerdtree + Floating terminal
+ - Nerdtree + Floating terminal
 ![image](https://user-images.githubusercontent.com/47920109/135984322-2448003c-43bc-4174-8371-94c6c2708be6.png)
