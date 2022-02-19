@@ -18,4 +18,3 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 
 " Dissable nerdtree statusline
 let g:NERDTreeStatusline = '%#NonText#'
-

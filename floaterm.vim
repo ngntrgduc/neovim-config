@@ -69,4 +69,3 @@ endfunction
 
 " Open terminal
 nnoremap <C-`> :call FloatTerm()<CR>
-

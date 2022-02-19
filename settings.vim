@@ -1,3 +1,7 @@
+filetype plugin indent on
+syntax on                 " Enable syntax hightlighting
+colorscheme dracula       " Set color scheme
+
 " Essential settings
 set encoding=UTF-8        " The encoding displayed
 set termguicolors
