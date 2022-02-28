@@ -19,9 +19,6 @@
 
 
 
-
-
-
 " Floating Term by huytd on Github <3
 let s:float_term_border_win = 0
 let s:float_term_win = 0
