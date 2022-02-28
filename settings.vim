@@ -17,8 +17,8 @@ set numberwidth=4         " Set line number column width to 4
 " For tab characters that appear 4-spaces-wide:
 set tabstop=8             
 set softtabstop=0          
-set smarttab             
 set shiftwidth=4        
+set smarttab             
 set expandtab             
 
 set autoindent            " Makes indenting smart
