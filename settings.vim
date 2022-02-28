@@ -5,14 +5,14 @@ colorscheme dracula       " Set color scheme
 " Essential settings
 set encoding=UTF-8        " The encoding displayed
 set termguicolors
+set mouse=a	          " Enable mouse for all mode
+set cursorline		  " Enable hightlighting of the current line
+set clipboard=unnamedplus " Copy paste between vim and everything else
 
+" Number column
 set number                " Enable line numbers
 set relativenumber        " Help you navigate faster 
-set numberwidth=4         " Minimum line number column width
-
-set mouse=a				        " Enable mouse for all mode
-set cursorline		    	  " Enable hightlighting of the current line
-set clipboard=unnamedplus " Copy paste between vim and everything else
+set numberwidth=4         " Set line number column width to 4
 
 " For tab characters that appear 4-spaces-wide:
 set tabstop=8             
