@@ -8,7 +8,9 @@ let g:lightline = {
    \              [ 'percent' ],
    \              [ 'filetype' ] ],
    \   'left': [ [ 'mode', 'paste' ],
-   \             [ 'readonly', 'filename', 'modified' ] ]
+   \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
    \},
-   \
+   \ 'component_function': {
+   \   'gitbranch': 'FugitiveHead'
+   \ },
    \ }

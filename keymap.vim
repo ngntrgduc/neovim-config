@@ -50,3 +50,9 @@ nnoremap <C-z> :nohlsearch<CR>
 " Disable the annoying and useless ex-mode
 nnoremap Q <Nop>
 nnoremap gQ <Nop>
+
+" Use tab with text block
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+
+autocmd filetype cpp nnoremap <F11> :w <bar> !g++ -std=c++11 -O2 -Wall % -o %:r && %:r.exe <CR>

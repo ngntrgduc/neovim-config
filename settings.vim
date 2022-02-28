@@ -7,6 +7,7 @@ set encoding=UTF-8        " The encoding displayed
 set termguicolors
 set number                " Enable line numbers
 set relativenumber        " Help you navigate faster 
+set numberwidth=4         " Minimum line number column width
 set mouse=a				        " Enable mouse for all mode
 set cursorline		    	  " Enable hightlighting of the current line
 set clipboard=unnamedplus " Copy paste between vim and everything else
@@ -25,7 +26,6 @@ set updatetime=300        " Faster completion
 set autoread              " Auto update file when it's changed by other program
 set autowrite 
 set scrolloff=12          " Make cursorline always in 1/3 of screen when scrolling
-set numberwidth=1         " Minimum line number column width
 "set nohlsearch " Or turn off highlighting when search
 
 " Disable files backup, swap because I use Git instead
@@ -38,6 +38,8 @@ set noswapfile            " Dont create wrap file
 "set backupcopy=yes
 "set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 "set directory=/tmp
+
+set nojoinspaces          " Use one space, not two, after punctuation.        
 
 " Search
 set incsearch             " Incremental search.

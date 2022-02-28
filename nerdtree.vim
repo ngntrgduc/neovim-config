@@ -4,7 +4,7 @@
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-" Ctrl + O to open NERDTree
+" Ctrl + o to open NERDTree
 nnoremap <silent> <C-o> :NERDTreeToggle<CR>
 
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.

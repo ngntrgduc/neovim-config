@@ -20,6 +20,7 @@ let g:startify_bookmarks = [
             \   'D:/C_plus_plus/Cpp_project' ,
             \   'D:/Git_clone' ,
             \   '~/AppData/Local/nvim' ,
+            \   'D:/'
             \ ]
 
 " If you want numbers to start at 1 instead of 0
@@ -27,4 +28,3 @@ let g:startify_custom_indices = map(range(1,100), 'string(v:val)')
 
 " Get rid of empy buffer and quit
 let g:startify_enable_special = 0
-
