@@ -5,16 +5,22 @@ colorscheme dracula       " Set color scheme
 " Essential settings
 set encoding=UTF-8        " The encoding displayed
 set termguicolors
+
 set number                " Enable line numbers
 set relativenumber        " Help you navigate faster 
 set numberwidth=4         " Minimum line number column width
+
 set mouse=a				        " Enable mouse for all mode
 set cursorline		    	  " Enable hightlighting of the current line
 set clipboard=unnamedplus " Copy paste between vim and everything else
-set tabstop=2             " Insert 2 spaces for a tab
-set smarttab              " Makes tabbing smarter will realize you have 2 vs 4
-set shiftwidth=2          " Change the number of space characters inserted for indentation
-set expandtab             " Converts tabs to spaces
+
+" For tab characters that appear 4-spaces-wide:
+set tabstop=8             
+set softtabstop=0          
+set smarttab             
+set shiftwidth=4        
+set expandtab             
+
 set autoindent            " Makes indenting smart
 set smartindent           " Good auto indent
 set cmdheight=2           " More space for displaying messages
@@ -26,7 +32,7 @@ set updatetime=300        " Faster completion
 set autoread              " Auto update file when it's changed by other program
 set autowrite 
 set scrolloff=12          " Make cursorline always in 1/3 of screen when scrolling
-"set nohlsearch " Or turn off highlighting when search
+" set nohlsearch            " Or turn off highlighting when search
 
 " Disable files backup, swap because I use Git instead
 set nobackup              " Dont save backup
