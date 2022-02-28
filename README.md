@@ -3,7 +3,7 @@ Just my basic neovim configuration for Window :>.
 ---
 ## Installation
 
-I use [vim-plug](https://github.com/junegunn/vim-plug) to install plugins because it is easy to use.
+I use [vim-plug](https://github.com/junegunn/vim-plug) to install plugins because it's easy to use.
 
 There are 2 way to use this config:
 1. Just copy what you need :>.
