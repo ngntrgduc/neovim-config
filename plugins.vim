@@ -6,5 +6,6 @@ Plug 'jiangmiao/auto-pairs'                      " Auto pairs
 Plug 'mhinz/vim-startify'                        " Start-screen
 "Plug 'voldikss/vim-floaterm'                    " Floating terminal
 Plug 'tpope/vim-commentary'                      " Better comment code
-Plug 'tpope/vim-fugitive'                        " 
+Plug 'tpope/vim-fugitive'                        " Git in Vim
+Plug 'junegunn/goyo.vim'
 call plug#end()
