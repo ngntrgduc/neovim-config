@@ -1,6 +1,5 @@
-# neovim-config
-Just my basic neovim configuration for Window :>.
----
+# Just my basic neovim configuration for Window :>.
+
 ## Installation
 
 I use [vim-plug](https://github.com/junegunn/vim-plug) to install plugins because it's easy to use.
