@@ -5,7 +5,7 @@
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " Ctrl + o to open NERDTree
-nnoremap <silent> <C-o> :NERDTreeToggle<CR>
+nnoremap <silent> <C-E> :NERDTreeToggle<CR>
 
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |

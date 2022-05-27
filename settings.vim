@@ -12,9 +12,9 @@ set clipboard=unnamedplus " Copy paste between vim and everything else
 " Number column
 set number                " Enable line numbers
 set relativenumber        " Help you navigate faster 
-set numberwidth=4         " Set line number column width to 4
+set numberwidth=5         " Set line number column width to 4
 
-" For tab characters that appear 4-spaces-wide:
+" For tab characters that appear 4-spaces-wide
 set tabstop=8             
 set softtabstop=0          
 set shiftwidth=4        
@@ -35,7 +35,7 @@ set autoread
 au FocusGained,BufEnter * checktime
 
 set autowrite 
-set scrolloff=12          " Make cursorline always in 1/3 of screen when scrolling
+" set scrolloff=12          " Make cursorline always in 1/3 of screen when scrolling
 " set nohlsearch            " Or turn off highlighting when search
 
 " Disable files backup, swap because I use Git instead

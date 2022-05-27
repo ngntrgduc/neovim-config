@@ -3,22 +3,19 @@ nnoremap <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 
-" Moving your Vim cursor around using the arrow keys is a bad habit, 
-" and like many bad habits, it’s difficult to break :<
+" Disable arrow keys
 nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
 nnoremap <Up> <NOP>
 nnoremap <Down> <NOP>
-
-" Also in Insert mode :<
-"inoremap <Left> <NOP>
-"inoremap <Right> <NOP>
-"inoremap <Up> <NOP>
-"inoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
 
 " Use Ctrl C and Ctrl V :>
-vnoremap <C-c> "+y
-map <C-v> "+p
+" vnoremap <C-c> "+y
+" map <C-v> "+p
 
 " Use Alt + hjkl to resize windows
 nnoremap <silent> <M-j>    :resize +2<CR>
