@@ -1,9 +1,6 @@
-"This config is used for Competive Programming :v
-
 syntax on
 
-"Dracula theme, of course :>
-"I follow the instruction on dracula theme official page
+" Theme
 packadd! dracula
 syntax enable
 colorscheme dracula
